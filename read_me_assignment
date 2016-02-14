@@ -1,0 +1,65 @@
+Try a CSS Tutorial Readme:
+
+After a lot of searching I managed to find an article that 
+
+was not full of SCSS, javascript and other more advanced 
+
+methods of web design. I found an article on using CSS 
+
+counters in helpful ways. I was immedately drawn to this 
+
+article since it is similar to what I am learning in 
+
+fundmentals of programming. The article is a blog post not 
+
+older than two years as per instructions.
+
+I liked that the article was familiar in some ways to what 
+
+I am learning in another class at the moment. I did not 
+
+use anything other than the first part of the article 
+
+because the second part used HAML which I know nothing 
+
+about and two because the rest of the article held no real 
+
+value to me at the moment as it becomes overly advanced 
+
+for my current skill level. The first part of the article 
+
+the 'basic counter' was built upon many of the techniques 
+
+we have learned in the previous chapters from relative 
+
+hyperlinks to box shadow and background color. It 
+
+introduced several new concepts and elements such as the 
+
+section element, the before content and of course 
+
+counters. The :hover features caught my attention once I 
+
+figured out what it was used for. 
+
+I think the main reason this article was useful to me was 
+
+due to the fact that I had to figure out the function of 
+
+things I'd never seen in class such as overflow, :hover 
+
+and float by playing around with the dev tools. The html 
+
+that I'm submitting isn't all that different from what is 
+
+in the article but what I was trying to show that I had 
+
+learned was how to use the hover feature for relative 
+
+hyperlinks. It looks flashier and I could see myself using 
+
+it for a photo album part of a webpage. 
+
+Article: http://codersblock.com/blog/fun-times-with-css-
+
+counters/
