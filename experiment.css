@@ -1,0 +1,64 @@
+/* This page is basically what we have learned in all of the chapters so far
+   with a few more advanced concepts such as using hover, overflow, transition,
+   counter increments, the section element, etc. */
+body {
+  counter-reset: pages;
+}
+
+a {
+  counter-increment: pages;
+}
+
+a::before {
+  content: counter(pages);
+}
+
+/* Why are there multiple body and a selectors? do they
+   not conflict with each other? */
+
+body {
+  margin: 32px;
+  font: 700 32px/1 sans-serif;
+  color: rgba(237, 238, 236, 1);
+  background-color: rgba(76, 81, 56, 1);
+}
+
+h1 {
+  margin: 0 0 32px;
+  font-size: 48px;
+}
+
+h2 {
+  margin: 0 0 8px 8px;
+  font-size: inherit;
+}
+
+section {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: rgba(207, 207, 207, 0.25);
+  width: 42%;
+}
+footer { color: #000;
+         text-align: right;}
+
+a {
+  float: left;
+  width: 32px;
+  margin: 4px;
+  padding: 8px;
+  border-radius: 10px;
+  border: solid 2px rgba(255, 255, 255, .4);
+  text-align: center;
+  color: rgba(83, 203, 77, 1);
+  background-color: rgba(137, 144, 55, 0.2);
+  transition: all .1s;
+}
+
+a:hover {
+  border: solid 2px #fff;
+  background-color: rgba(155, 110, 155, .4);
+  box-shadow: 0 0 10px #fff;
+}
